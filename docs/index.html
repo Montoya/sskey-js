@@ -4,14 +4,40 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=.3, maximum-scale=1">
 		<title>Shiren's Skeleton Key</title>
-
 		<link href="style2.css" rel="stylesheet" type="text/css" media="screen" />
 		<script language="javascript" type="text/javascript" src="sskey-min.js"></script>
+		<style type="text/css">
+			#logo { 
+				color:#e1e1e1; 
+				font-size:16px; 
+				display:inline-block; 
+				position:fixed; 
+				bottom:16px;  
+				left:50%; 
+				margin-left:-174px; 
+				z-index:100; 
+			} 
+			#logo-cite { 
+				margin-bottom:10px; 
+				color:#e1e1e1;
+				-webkit-filter: drop-shadow( 0 0 3px rgba(255, 255, 255, .7));
+				filter: drop-shadow( 0 0 3px rgba(255, 255, 255, .7));
+			} 
+			#logo img { 
+				vertical-align:bottom; 
+			}
+		</style>
 	</head>
 
 	<body>
+		<div id="logo">
+			<div id="logo-cite">Brought to you by</div>
+			<a href="http://homerow.club">
+				<img src="homerow.png" width="348" height="43" alt="HOME ROW">
+			</a>
+		</div>
 		<div id="sskey">
-			<h1>Send a rescue request</h1>
+			<h1>Rescue Key Generator for<br>&ldquo;Shiren The Wanderer&rdquo; on Nintendo DS</h1>
 			<form id="myForm" action="#revival" method="post" onsubmit="return shiren.revive();">
 				<fieldset>
 					<label for="rescue">Rescue Password</label>

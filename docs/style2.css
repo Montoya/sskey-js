@@ -11,12 +11,12 @@ body {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#25303C), color-stop(100%,#728EAA));
 	background-image: url(mystery_dungeon__shiren_the_wanderer_wall_1.jpg);
 	background-size: cover;
-	
+	padding-bottom:120px; 
 	font-family: sans-serif; 
 }
 
 #sskey {
-	width: 450px; margin: 60px auto; padding: 60px 30px;
+	width: 450px; margin: 34px auto 0 auto; padding: 26px 30px 34px 30px;
 	background: #c9d0de; border: 1px solid #e1e1e1;
 	opacity: 0.9;
 
@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-	font-size: 35px; color: #445668; text-transform: uppercase;
+	font-size: 18px; color: #445668; font-variant: small-caps;
 	text-align: center; margin: 0 0 35px 0; text-shadow: 0px 1px 0px #f2f2f2;
 }
 
